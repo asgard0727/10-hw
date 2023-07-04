@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg: red;
+    --yellow: yellow;
+    --soya: 0 0 15px  #0002
+}
+.title{
+    box-shadow: var(--soya);
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background: #222;
+    display: flex;
+    padding: 0 15%;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--bg);
+}
+.nav__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav__item a{
+    color: #ddd;
+    text-decoration: none;
+    padding: 20px;
+}
+.btn{
+    padding: 8px 30px;
+    background: var(--yellow);
+    color: var(--bg);
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff9;
+    font-size: 7vw  ;
+}
+.home{
+    background: url(./Acer-Vero-Combo-set-AAK124-grey-01-1.webp)
+    no-repeat center/cover;
+}
+.contact{
+    background: url(./2023GPC_post-event_Acer_banner_Primary-Hero-XL.webp) no-repeat center/cover;
+}
+.blog{
+    background: url(./Acer-Vero-Combo-set-AAK124-grey-01-1.webp)
+    no-repeat center/cover;
+}
+.about{
+    background: url(./2023GPC_post-event_Acer_banner_Primary-Hero-XL.webp) no-repeat center/cover;
+}
+.active a{
+    text-decoration: underline;
+    color: gold;
+}
